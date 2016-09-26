@@ -25,11 +25,11 @@
             <img alt="Brand" src="http://img02.tooopen.com/images/20150530/tooopen_sl_127364269344.jpg" height="100%">
           </a>
           <form class="navbar-form navbar-left" role="search">
-			 <div class="form-group">
-			  <input id="searchWord" class="form-control" placeholder="输入正规式" type="text">
-			 </div>
-			  <button id="search" type="submit" class="btn btn-default">Search</button>
-		  </form>
+	    <div class="form-group">
+		<input id="searchWord" class="form-control" placeholder="输入正规式" type="text">
+	    </div>
+		<button id="search" type="submit" class="btn btn-default">Search</button>
+	  </form>
         </div>
   	  </div>
 	</nav>
@@ -143,7 +143,8 @@
 
 		  while (ret = reg.exec(str)) {
 		    numAll++;
-		    if (markId.search(ret[0]) != -1){
+		    var regg =new RegExp("\\b" + ret[0] + "\\b","");
+		    if (markId.search(regg) != -1){
 		      continue;
 		    } else {
 		      numOne++;
