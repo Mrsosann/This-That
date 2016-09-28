@@ -4,4 +4,4 @@
 
 01 (2016-9-25) [regExp.html 检验单词数量和重复] (https://github.com/Mrsosann/This-That/blob/master/regExp.html)
 
-02 (2016-9-28) [index2048.html 私人订制2048 伪随机算法] ( This-That/index2048.html )
+02 (2016-9-28) [index2048.html 私人订制2048 伪随机算法] (https://github.com/Mrsosann/This-That/blob/master/index2048.html)
